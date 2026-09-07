@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-color: #0a0a0f;
+  color: #f2f2f5;
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(232, 122, 45, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 80% 70%, rgba(232, 122, 45, 0.06) 0%, transparent 40%);
+  background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(232, 122, 45, 0.4);
+  border-radius: 8px;
+}
